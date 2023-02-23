@@ -36,6 +36,7 @@ public class Main_1074_Z {
 			return;
 		}
 
+		//사각형 4중에 하나만 가니까 선형 재귀 형태 (트리 형태 아님)
 		if (r < rmid && c < cmid) {		//사각형 1
 			square = 1;
 			int next_len = (int) Math.pow(2, size - 1);		//4개로 나눈 작은 사각형 길이
@@ -54,7 +55,7 @@ public class Main_1074_Z {
 			int next_base = base + next_len * next_len * (square - 1);
 			divide(size - 1, next_base, rmid, rend, cstart, cmid, square);
 		}
-		else if (r >= rmid && c >= cmid) {	//사각형 4
+		else {	//사각형 4
 			square = 4;
 			int next_len = (int) Math.pow(2, size - 1);
 			int next_base = base + next_len * next_len * (square - 1);
