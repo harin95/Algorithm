@@ -67,19 +67,19 @@ public class Solution_5644_무선충전 {
                 }
 
                 //A만 포함될 때
-                if(candidateA.size() > 0 && candidateB.size() == 0){
+                if(!candidateA.isEmpty() && candidateB.isEmpty()){
                     for(int i=0; i<candidateA.size(); i++){
                         int idxA = candidateA.get(i);
                         candidateTotal.add(bc[idxA][3]);
                     }
                 }//B만 포함될 때
-                else if(candidateB.size() > 0 && candidateA.size() == 0){
+                else if(!candidateB.isEmpty() && candidateA.isEmpty()){
                     for(int j=0; j<candidateB.size(); j++){
                         int idxB = candidateB.get(j);
                         candidateTotal.add(bc[idxB][3]);
                     }
                 }
-                else if(candidateA.size() > 0 && candidateB.size() > 0) {    //둘 다 포함
+                else if(!candidateA.isEmpty() && !candidateB.isEmpty()) {    //둘 다 포함
                     //충전기 조합 경우의 수
                     for (int i = 0; i < candidateA.size(); i++) {
                         for (int j = 0; j < candidateB.size(); j++) {
