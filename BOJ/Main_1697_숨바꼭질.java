@@ -7,7 +7,7 @@ public class Main_1697_숨바꼭질 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int k = sc.nextInt();
-        boolean[] check = new boolean[300000];
+        boolean[] check = new boolean[100001];
 
         if(n==k) {
             System.out.println(0);
