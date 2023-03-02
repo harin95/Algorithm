@@ -148,12 +148,4 @@ public class Main_17135_캐슬디펜스 {
             enemyCopy.remove(e);
         }
     }
-
-//    static void print(ArrayList<Enemy> enemyCopy){
-//        int[][] map = new int[n][m];
-//        for(Enemy e : enemyCopy){
-//            map[e.r][e.c] = 1;
-//        }
-//        Main.print(map);
-//    }
 }
