@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Main_1316_그룹단어체커 {
 
 	public static void main(String[] args) throws IOException {
 		
