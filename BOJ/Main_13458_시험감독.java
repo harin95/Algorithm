@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Main_13458_시험감독 {
 
 	public static void main(String[] args) throws IOException {
 		
