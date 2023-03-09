@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Main_10974_모든순열 {
 	
 	static int[] arr;
 	static int n;
