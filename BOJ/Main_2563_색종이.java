@@ -2,7 +2,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Main_2563_색종이 {
 
 	public static void main(String[] args) throws IOException {
 		
