@@ -3,7 +3,7 @@ package SWEA;
 import java.util.*;
 import java.io.*;
 
-public class Solution_1767_프로세서연결하기 {
+public class SWEA1767_프로세서연결하기 {
 
     static int n;
     static int[][] cores;

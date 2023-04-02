@@ -2,7 +2,7 @@ package SWEA;
 
 import java.util.Scanner;
 
-public class Solution_1970_쉬운거스름돈 {
+public class SWEA1970_쉬운거스름돈 {
 
 	public static void main(String[] args) {
 

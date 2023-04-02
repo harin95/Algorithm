@@ -1,9 +1,8 @@
 package SWEA;
 
-import java.util.*;
 import java.io.*;
 
-public class Solution_3289_서로소집합 {
+public class SWEA3289_서로소집합 {
 
     static int[] groups;
     static int n;

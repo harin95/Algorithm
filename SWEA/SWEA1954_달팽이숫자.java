@@ -2,7 +2,7 @@ package SWEA;
 
 import java.util.Scanner;
 
-public class Solution_1954_달팽이숫자 {
+public class SWEA1954_달팽이숫자 {
 
 	public static void main(String[] args) {
 		

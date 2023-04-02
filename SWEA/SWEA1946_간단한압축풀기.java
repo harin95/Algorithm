@@ -2,7 +2,7 @@ package SWEA;
 
 import java.util.*;
 
-public class Solution_1946_간단한압축풀기 {
+public class SWEA1946_간단한압축풀기 {
 
 	public static void main(String[] args) {
 

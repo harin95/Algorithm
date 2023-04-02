@@ -3,7 +3,7 @@ package SWEA;
 import java.io.*;
 import java.util.*;
 
-public class Solution_1208_Flatten {
+public class SWEA1208_Flatten {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		

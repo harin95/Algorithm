@@ -3,7 +3,7 @@ package SWEA;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Solution_1966_숫자를정렬하자 {
+public class SWEA1966_숫자를정렬하자 {
 	
 	public static void main(String[] args) {
 		

@@ -2,7 +2,7 @@ package SWEA;
 
 import java.util.*;
 
-public class Solution_1948_날짜계산기 {
+public class SWEA1948_날짜계산기 {
 
 	public static void main(String[] args) {
 

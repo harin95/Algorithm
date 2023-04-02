@@ -3,7 +3,7 @@ package SWEA;
 import java.io.*;
 import java.util.*;
 
-public class Solution_5644_무선충전 {
+public class SWEA5644_무선충전 {
     static int[][] map;
     static int[] userA;
     static int[] userB;

@@ -2,7 +2,7 @@ package SWEA;
 
 import java.util.*;
 
-public class Solution_4012_요리사 {
+public class SWEA4012_요리사 {
 	
 	static int n,input[];
 	static int[] combArrFood1;

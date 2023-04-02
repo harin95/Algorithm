@@ -3,7 +3,7 @@ package SWEA;
 import java.util.*;
 import java.io.*;
 
-public class Solution_2115_벌꿀채취 {
+public class SWEA2115_벌꿀채취 {
 
     private static int n, m, c;
     private static int profit = 0;
