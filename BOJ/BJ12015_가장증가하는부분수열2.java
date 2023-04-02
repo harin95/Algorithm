@@ -44,8 +44,8 @@ public class BJ12015_가장증가하는부분수열2 {
 
             }
         }
-        sb.append(lis.size());
 
+        sb.append(lis.size());
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         bw.write(sb.toString());
         bw.close();

@@ -24,7 +24,6 @@ public class BJ21317_징검다리건너기 {
         int[] dp = new int[n+1];    //작은 점프, 큰 점프만 고려
         int[] dp2 = new int[n+1];   //매우 큰 점프 고려
 
-
         for(int i=1; i<n+1; i++){
             if(i<3){    //세번째 돌 이전까지는 작은 점프만 가능
                 dp[i] = dp[i-1] + jump[i-1];

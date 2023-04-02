@@ -6,8 +6,6 @@ import java.util.*;
 public class BJ20437_문자열게임2 {
     public static void main(String[] args) throws IOException {
 
-        System.setIn(new FileInputStream("/Users/harin/IdeaProjects/ProgrammingProblems/src/main/java/ProgrammingProblems/input.txt"));
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int T = Integer.parseInt(br.readLine());
         StringBuffer sb = new StringBuffer();

@@ -66,7 +66,6 @@ public class BJ14502_연구소 {
             combination(list, cnt+1, i);
             visit[i] = false;
         }
-
     }
 
     private static int virus(){
