@@ -1,14 +1,14 @@
-package SWEA;
+package Algorithm.SWEA;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-public class Solution_1233_사칙연산유효성검사 {
+public class SWEA1233_사칙연산유효성검사 {
 	
 	public static void main(String[] args) throws FileNotFoundException {
 		
-		System.setIn(new FileInputStream("./input.txt"));
+		System.setIn(new FileInputStream("Algorithm/input.txt"));
 		
 		Scanner sc = new Scanner(System.in);
 		
