@@ -15,7 +15,6 @@ public class SWEA1233_사칙연산유효성검사 {
 		for(int test_case=1; test_case<=10; test_case++) {
 			
 			int answer = 1;
-			
 			int n = sc.nextInt();
 			int temp = 0;
 			
