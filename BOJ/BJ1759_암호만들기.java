@@ -3,7 +3,7 @@ package BOJ;
 import java.util.*;
 import java.io.*;
 
-public class Main_1759_암호만들기 {
+public class BJ1759_암호만들기 {
 
     static boolean[] choose;
     static String[] input;

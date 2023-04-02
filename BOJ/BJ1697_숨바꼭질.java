@@ -2,7 +2,7 @@ package BOJ;
 
 import java.util.*;
 
-public class Main_1697_숨바꼭질 {
+public class BJ1697_숨바꼭질 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

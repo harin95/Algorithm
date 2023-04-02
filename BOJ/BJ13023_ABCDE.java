@@ -3,7 +3,7 @@ package BOJ;
 import java.io.*;
 import java.util.*;
 
-public class Main_13023_ABCDE {
+public class BJ13023_ABCDE {
 
     static int n, m;
     static ArrayList[] friends;

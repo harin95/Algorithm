@@ -3,7 +3,7 @@ package BOJ;
 import java.io.*;
 import java.util.*;
 
-public class Main_1244_스위치켜고끄기 {
+public class BJ1244_스위치켜고끄기 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		

@@ -2,7 +2,7 @@ package BOJ;
 
 import java.util.*;
 
-public class Main_3040_백설공주와일곱난쟁이 {
+public class BJ3040_백설공주와일곱난쟁이 {
 
     static int arr[] = new int[2];
     static ArrayList<int[]> list;

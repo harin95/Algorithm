@@ -3,7 +3,7 @@ package BOJ;
 import java.io.*;
 import java.util.*;
 
-public class Main_3109_빵집 {
+public class BJ3109_빵집 {
 
     static char[][] breadHouse;
     static int cnt = 0;

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main_16926_배열돌리기1 {
+public class BJ16926_배열돌리기1 {
 
 	static int[][] numbers;
 	static int cnt = 0;

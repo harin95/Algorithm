@@ -3,7 +3,7 @@ package BOJ;
 import java.io.*;
 import java.util.*;
 
-public class Main_2865_나는위대한슈퍼스타k {
+public class BJ2865_나는위대한슈퍼스타k {
 
     static int n, m, k;
 

@@ -3,7 +3,7 @@ package BOJ;
 import java.util.*;
 import java.io.*;
 
-public class Main_1074_Z {
+public class BJ1074_Z {
 	static int n, r, c;
 
 	public static void main(String[] args) throws IOException {

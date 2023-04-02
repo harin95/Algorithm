@@ -2,7 +2,7 @@ package BOJ;
 
 import java.io.*;
 
-public class Main_1541_잃어버린괄호 {
+public class BJ1541_잃어버린괄호 {
 
     private static String plus = "+";
 

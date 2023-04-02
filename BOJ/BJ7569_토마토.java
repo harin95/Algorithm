@@ -3,7 +3,7 @@ package BOJ;
 import java.util.*;
 import java.io.*;
 
-public class Main_7569_토마토 {
+public class BJ7569_토마토 {
 
     static int[] di = new int[]{0, 0, 0, 0, -1, 1};     //위 아래 이동
     static int[] dj = new int[]{-1, 1, 0, 0, 0, 0};     //세로 이동

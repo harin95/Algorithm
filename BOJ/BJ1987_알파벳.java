@@ -1,11 +1,8 @@
 package BOJ;
 
-import org.example.Main;
-
-import java.util.*;
 import java.io.*;
 
-public class Main_1987_알파벳 {
+public class BJ1987_알파벳 {
 
     static char[][] board;
     static int R, C;

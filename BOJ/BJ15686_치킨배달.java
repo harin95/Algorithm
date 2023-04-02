@@ -3,7 +3,7 @@ package BOJ;
 import java.io.*;
 import java.util.*;
 
-public class Main_15686_치킨배달 {
+public class BJ15686_치킨배달 {
 	
 	static int n, m;
 	static ArrayList<int[]> combArr;

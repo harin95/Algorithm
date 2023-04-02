@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main_6987_월드컵 {
+public class BJ6987_월드컵 {
     public static void main(String[] args) throws IOException {
 
         int[][] worldCup = new int[6][6];

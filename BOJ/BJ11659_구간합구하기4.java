@@ -2,7 +2,7 @@ package BOJ;
 
 import java.io.*;
 
-public class Main_11659_구간합구하기4 {
+public class BJ11659_구간합구하기4 {
 	
 	public static void main(String[] args) throws IOException {
 

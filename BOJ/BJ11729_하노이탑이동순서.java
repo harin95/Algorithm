@@ -2,7 +2,7 @@ package BOJ;
 
 import java.util.Scanner;
 
-public class Main_11729_하노이탑이동순서 {
+public class BJ11729_하노이탑이동순서 {
 	
 	public static StringBuilder sb = new StringBuilder();
 	

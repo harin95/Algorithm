@@ -3,7 +3,7 @@ package BOJ;
 import java.io.*;
 import java.util.*;
 
-public class Main_11286_절댓값힙 {
+public class BJ11286_절댓값힙 {
     public static void main(String[] args) throws IOException {
 
         PriorityQueue<Integer> pqPositive = new PriorityQueue<>();

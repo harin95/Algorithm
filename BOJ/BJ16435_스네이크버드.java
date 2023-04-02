@@ -3,7 +3,7 @@ package BOJ;
 import java.io.*;
 import java.util.*;
 
-public class Main_16435_스네이크버드 {
+public class BJ16435_스네이크버드 {
 
 	public static void main(String[] args) throws IOException {
 		

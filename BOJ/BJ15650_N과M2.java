@@ -2,7 +2,7 @@ package BOJ;
 
 import java.util.Scanner;
 
-public class Main_15650_N과M2 {
+public class BJ15650_N과M2 {
 	
 	static int N, M;
 	static int[] numbers;

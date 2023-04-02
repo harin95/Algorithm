@@ -1,11 +1,9 @@
 package BOJ;
 
-import org.example.Main;
-
 import java.util.*;
 import java.io.*;
 
-public class Main_17135_캐슬디펜스 {
+public class BJ17135_캐슬디펜스 {
     static int n, m, d;
 
     static class Enemy implements Comparable<Enemy>{
