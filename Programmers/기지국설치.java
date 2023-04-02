@@ -17,7 +17,6 @@ public class 기지국설치 {
                     if(left <= right){
                         int emptyLen = right-left+1;
                         answer += ((emptyLen+coverage-1)/coverage);
-
                     }
                 }
             }
