@@ -1,4 +1,4 @@
-package Algorithm.BOJ;
+package BOJ;
 
 import java.util.*;
 import java.io.*;
