@@ -1,4 +1,4 @@
-package Algorithm.Programmers;
+package Programmers;
 
 public class 기지국설치 {
     class Solution {
