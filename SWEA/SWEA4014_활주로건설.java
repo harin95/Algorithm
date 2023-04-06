@@ -36,14 +36,14 @@ public class SWEA4014_활주로건설 {
 
                     if(j == n-1){   //n-1까지 탐색했으면 활주로를 놓을 수 있음
                         cnt++;
-                        break col;
+                        break;
                     }
 
                     //j+1이 j보다 1 클 때 -> 왼쪽으로 경사로 필요
                     if(map[i][j] + 1 == map[i][j+1]){
 
                         //경사로의 길이가 인덱스의 범위를 초과하면 놓을 수 없음
-                        if(j-x < 0) break col;
+                        if(j-x < 0) break;
 
                         //j부터 j-x까지 평지이고 경사로가 놓여져있지 않아야한다
                         int height = map[i][j];
@@ -60,7 +60,7 @@ public class SWEA4014_활주로건설 {
                     if(map[i][j] == map[i][j+1] + 1){
 
                         //경사로의 길이가 인덱스의 범위를 초과하면 놓을 수 없음
-                        if(j+1+x >= n) break col;
+                        if(j+1+x >= n) break;
 
                         //j+1부터 j+1+x까지 평지이고 경사로가 놓여져있지 않아야한다
                         int height = map[i][j+1];
@@ -75,7 +75,7 @@ public class SWEA4014_활주로건설 {
                     }
 
                     //앞뒤로 높이 차이가 2 이상일 때
-                    if(Math.abs(map[i][j] - map[i][j+1]) > 1) break col;
+                    if(Math.abs(map[i][j] - map[i][j+1]) > 1) break;
 
                     /*아래 경우는 활주로를 건설할 수 없음*/
                     //j와 j+1의 높이 차이가 2이상일 때
@@ -94,7 +94,7 @@ public class SWEA4014_활주로건설 {
 
                     if(i == n-1){   //n-1까지 탐색했으면 활주로를 놓을 수 있음
                         cnt++;
-                        break row;
+                        break;
                     }
 
 
@@ -103,7 +103,7 @@ public class SWEA4014_활주로건설 {
                     if(map[i][j] + 1 == map[i+1][j]){
 
                         //경사로의 길이가 인덱스의 범위를 초과하면 놓을 수 없음
-                        if(i-x < 0) break row;
+                        if(i-x < 0) break;
 
                         //i부터 i-x까지 평지이고 경사로가 놓여져있지 않아야한다
                         int height = map[i][j];
@@ -121,7 +121,7 @@ public class SWEA4014_활주로건설 {
                     if(map[i][j] == map[i+1][j] + 1){
 
                         //경사로의 길이가 인덱스의 범위를 초과하면 놓을 수 없음
-                        if(i+1+x >= n) break row;
+                        if(i+1+x >= n) break;
 
                         //j+1부터 j+1+x까지 평지이고 경사로가 놓여져있지 않아야한다
                         int height = map[i+1][j];
@@ -136,7 +136,7 @@ public class SWEA4014_활주로건설 {
                     }
 
                     //앞뒤로 높이 차이가 2 이상일 때
-                    if(Math.abs(map[i][j] - map[i+1][j]) > 1) break row;
+                    if(Math.abs(map[i][j] - map[i+1][j]) > 1) break;
                 }
             }
             sb.append("#").append(tc).append(" ").append(cnt).append("\n");
