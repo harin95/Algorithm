@@ -1,6 +1,5 @@
 package BOJ;
 
-import java.nio.Buffer;
 import java.util.Scanner;
 
 public class BJ13699_점화식 {
