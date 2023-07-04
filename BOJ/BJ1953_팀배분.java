@@ -56,6 +56,9 @@ public class BJ1953_팀배분 {
         System.out.println(sb);
     }
 
+    /*
+    * 이분그래프: 인접한 정점끼리 서로 다른 색으로 칠해서 모든 정점을 두 가지 색으로만 칠할 수 있는 그래프
+    * 두 그룹으로 나눌때는 dfs를 쓰자*/
     private static void bfs(int start, int team){
         Queue<Integer> q = new ArrayDeque<>();
         //시작 정점 넣고 방문 체크
@@ -77,7 +80,13 @@ public class BJ1953_팀배분 {
             }
         }
     }
-
+    /*
+     * bfs 예외
+     * 4
+     * 1 3
+     * 1 4
+     * 1 4
+     * 2 2 3*/
     private static void dfs(int vertex, int team){
         divideTeam[vertex] = team;
         visit[vertex] = true;
