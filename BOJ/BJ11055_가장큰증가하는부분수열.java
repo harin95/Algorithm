@@ -14,8 +14,7 @@ public class BJ11055_가장큰증가하는부분수열 {
             return;
         }
 
-        int[] sumArr = new int[n];
-        sumArr = Arrays.copyOf(input, n);
+        int[] sumArr = Arrays.copyOf(input, n);
 
         int max = 0;
 
