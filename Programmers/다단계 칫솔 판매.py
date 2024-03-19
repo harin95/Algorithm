@@ -4,9 +4,6 @@ class Sale:
     def __init__(self, val, ref):
         self.val = val
         self.ref = ref
-
-    def __repr__(self):
-        return f"val={self.val} ref={self.ref} profit={self.profit}"
         
         
 def solution(enroll, referral, seller, amount):
